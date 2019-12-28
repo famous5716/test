@@ -8,7 +8,7 @@ console.log(process.env)
 var healthy=true;
 
 app.get('/', function (req, res) {
-  res.send('Hello world v.2 '+ os.hostname() + '\n');
+  res.send('Hello world v.3 '+ os.hostname() + '\n');
 });
 
 app.get('/healthz', function (req, res) {
